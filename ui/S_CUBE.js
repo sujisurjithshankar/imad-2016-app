@@ -5,6 +5,6 @@ var hours=d.getHours();
 var mins=d.getMinutes();
 var sec=d.getSeconds();
 var milli=d.getMilliseconds();
-document.body.InnerHTML=hours+":"+mins+":"+sec+":"+milli;
+document.body.innerHTML=hours+":"+mins+":"+sec+":"+milli;
 }
 setInterval(Now, 1);
